@@ -78,5 +78,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../../assets/style/mainpage/selectionclothes.scss";
+@import "../../assets/style/mainpage/selectionclothes";
 </style>
