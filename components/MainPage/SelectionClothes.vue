@@ -37,7 +37,7 @@
           <img
             width="39"
             height="45"
-            src="../../publicimage/components/SelectionClothes/image 99 (Traced) (1).png"
+            src="../../public/image/components/SelectionClothes/image 99 (Traced) (1).png"
           />
         </template>
         <template v-slot:subtitle>
