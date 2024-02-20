@@ -1,0 +1,31 @@
+.Greeting {
+  background-color: #9abdfd;
+  border-radius: 30px;
+  &__content {
+    padding: 34px 50px 0px 97px;
+    position: relative;
+    height: 608px;
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+    p {
+      font-size: 32px;
+      color: white;
+      margin-bottom: 100px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    h3 {
+      font-size: 56px;
+      color: white;
+      max-width: 557px;
+      font-weight: bold;
+      span {
+        font-size: 70px;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.Podium {
+  margin: 100px 0px;
+  position: relative;
+  width: 1380px;
+  height: 681px;
+  &__play {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+  }
+}

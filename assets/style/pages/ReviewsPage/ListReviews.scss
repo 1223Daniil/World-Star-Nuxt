@@ -1,0 +1,34 @@
+.ListReviews {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+  &__items {
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+    &__item {
+      max-width: 814px;
+      padding: 20px 40px 30px 20px;
+      background-color: white;
+      &__title {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 21px;
+      }
+    }
+  }
+  &__Feedback {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 420px;
+    button {
+      background-color: #605dff;
+      border-radius: 27px;
+      color: #fff;
+      padding: 14px 35px;
+      align-self: baseline;
+    }
+  }
+}
