@@ -1,4 +1,7 @@
 <script setup>
+import { useCounterStore } from "../store/store";
+const counter = useCounterStore();
+
 const login = ref(false);
 const register = ref(true);
 function OpenLogin() {
@@ -12,7 +15,12 @@ function OpenRegister() {
 </script>
 <template>
   <div>
-    <AppHeader @OpenLogin="OpenLogin()" @OpenRegister="OpenRegister()" />
+    <AppHeader
+      v-if="counter.$state.reg == false"
+      @OpenLogin="OpenLogin()"
+      @OpenRegister="OpenRegister()"
+    />
+    <AppHeaderLogin v-else />
     <div class="container">
       <slot />
     </div>

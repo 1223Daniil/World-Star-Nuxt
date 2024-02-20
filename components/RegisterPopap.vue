@@ -19,6 +19,7 @@
           #default="{ value }"
         >
           <FormKit
+            v-model="login"
             :message-class="{
               'text-red-700': true,
               'text-xs': true,
@@ -33,6 +34,7 @@
           />
           <div class="double">
             <FormKit
+              v-model="password"
               type="password"
               name="password"
               label="Введите пароль"
@@ -81,36 +83,29 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      show: true,
-      rememberMe: false,
-      confirmPassword: "",
-      submitted: false,
-    };
-  },
-  methods: {
-    toggleModal() {
-      this.show = !this.show;
-      if (this.show) {
-        document.body.style.overflow = "hidden"; // Запрещаем скроллинг
-      } else {
-        document.body.style.overflow = ""; // Разрешаем скроллинг
-      }
-    },
-    closeModal() {
-      this.show = false;
-      document.body.style.overflow = ""; // Разрешаем скроллинг при закрытии
-    },
-    Submit() {
-      this.submitted = true;
-      this.show = false;
-      document.body.style.overflow = "";
-    },
-  },
-};
+<script setup>
+import { useCounterStore } from "../store/store";
+const counter = useCounterStore();
+
+const show = ref(true);
+const submitted = ref(false);
+const password = ref("");
+const login = ref("");
+
+function closeModal() {
+  show.value = false;
+  document.body.style.overflow = "";
+}
+function Submit() {
+  submitted.value = true;
+  show.value = false;
+  document.body.style.overflow = "";
+  counter.$patch({
+    password: password.value,
+    login: login.value,
+    reg: true,
+  });
+}
 </script>
 <style scoped lang="scss">
 .modal-overlay {

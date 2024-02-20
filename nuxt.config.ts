@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-icon',
     '@formkit/auto-animate/nuxt',
-    '@formkit/nuxt'
+    '@formkit/nuxt',
+    '@pinia/nuxt',
   ],
   formkit: {
     // Experimental support for auto loading (see note):
