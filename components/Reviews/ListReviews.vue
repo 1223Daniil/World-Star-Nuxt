@@ -6,14 +6,14 @@
           <img
             width="93"
             height="94"
-            src="../../image/components/Reviews/Ellipse 2585.png"
+            src="../../public/image/components/Reviews/Ellipse 2585.png"
           />
           <div>
             <span style="font-size: 24px; font-weight: 500">Наташа Т</span>
             <img
               width="99"
               height="18"
-              src="../../image/components/Reviews/Group 56293.png"
+              src="../../public/image/components/Reviews/Group 56293.png"
             />
             <span style="color: #787878">Выйгрыш: 1 899 WS</span>
           </div>
@@ -29,14 +29,14 @@
           <img
             width="93"
             height="94"
-            src="../../image/components/Reviews/Ellipse 2585.png"
+            src="../../public/image/components/Reviews/Ellipse 2585.png"
           />
           <div>
             <span style="font-size: 24px; font-weight: 500">Наташа Т</span>
             <img
               width="99"
               height="18"
-              src="../../image/components/Reviews/Group 56293.png"
+              src="../../public/image/components/Reviews/Group 56293.png"
             />
             <span style="color: #787878">Выйгрыш: 1 899 WS</span>
           </div>
@@ -52,14 +52,14 @@
           <img
             width="93"
             height="94"
-            src="../../image/components/Reviews/Ellipse 2585.png"
+            src="../../public/image/components/Reviews/Ellipse 2585.png"
           />
           <div>
             <span style="font-size: 24px; font-weight: 500">Наташа Т</span>
             <img
               width="99"
               height="18"
-              src="../../image/components/Reviews/Group 56293.png"
+              src="../../public/image/components/Reviews/Group 56293.png"
             />
             <span style="color: #787878">Выйгрыш: 1 899 WS</span>
           </div>
@@ -75,14 +75,14 @@
           <img
             width="93"
             height="94"
-            src="../../image/components/Reviews/Ellipse 2585.png"
+            src="../../public/image/components/Reviews/Ellipse 2585.png"
           />
           <div>
             <span style="font-size: 24px; font-weight: 500">Наташа Т</span>
             <img
               width="99"
               height="18"
-              src="../../image/components/Reviews/Group 56293.png"
+              src="../../public/image/components/Reviews/Group 56293.png"
             />
             <span style="color: #787878">Выйгрыш: 1 899 WS</span>
           </div>

@@ -17,11 +17,13 @@
           </div>
         </div>
         <div class="footer__content__link">
-          <img src="../image/components/Footer/Logo (1).png" />
-          <img src="../image/components/Footer/app icon.png" />
-          <img src="../image/components/Footer/social icons (1).png" />
-          <img src="../image/components/Footer/Telegram_2019_Logo (1).png" />
-          <img src="../image/components/Footer/App Icon (1).png" />
+          <img src="../public/image/components/Footer/Logo (1).png" />
+          <img src="../public/image/components/Footer/app icon.png" />
+          <img src="../public/image/components/Footer/social icons (1).png" />
+          <img
+            src="../public/image/components/Footer/Telegram_2019_Logo (1).png"
+          />
+          <img src="../public/image/components/Footer/App Icon (1).png" />
         </div>
         <ul style="margin-top: 30px">
           <li>О нас</li>

@@ -2,7 +2,7 @@
   <div class="Greeting">
     <div class="Greeting__content">
       <img
-        src="../../image/components/Reviews/Group 51.png"
+        src="../../public/image/components/Reviews/Group 51.png"
         width="821"
         height="608"
       />

@@ -6,7 +6,7 @@
           <img
             width="62"
             height="54"
-            src="../image/components/Header/image95Traced.png"
+            src="../public/image/components/Header/image95Traced.png"
           />
           <div>
             <h1 style="color: #005bff" class="text-2xl font-black">

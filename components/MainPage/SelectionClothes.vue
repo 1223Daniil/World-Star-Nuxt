@@ -7,7 +7,7 @@
           <img
             width="39"
             height="31"
-            src="../../image/components/SelectionClothes/image 99 (Traced).png"
+            src="../../public/image/components/SelectionClothes/image 99 (Traced).png"
           />
           <span
             style="transform: rotate(-10deg); position: relative; bottom: 25px"
@@ -24,7 +24,7 @@
           <img
             width="50"
             height="40"
-            src="../../image/components/SelectionClothes/image 100 (Traced).png"
+            src="../../publicimage/components/SelectionClothes/image 100 (Traced).png"
           />
         </template>
         <template v-slot:subtitle>
@@ -37,7 +37,7 @@
           <img
             width="39"
             height="45"
-            src="../../image/components/SelectionClothes/image 99 (Traced) (1).png"
+            src="../../publicimage/components/SelectionClothes/image 99 (Traced) (1).png"
           />
         </template>
         <template v-slot:subtitle>

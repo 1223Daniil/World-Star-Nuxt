@@ -8,7 +8,7 @@
       <div class="Wardrobe__content__item">
         <img
           style="border-radius: 20px; width: auto; max-height: 260px"
-          src="../../image/components/SelectionClothes/Rectangle 7042 (1).png"
+          src="../../public/image/components/SelectionClothes/Rectangle 7042 (1).png"
         />
         <p class="Wardrobe__content__item__price">
           <span>1 600 ₽</span

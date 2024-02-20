@@ -12,7 +12,7 @@
 
         <img
           :class="{ transform: Transformimg, imgdropdown: imgdropdown }"
-          src="../../image/components/SelectionClothes/Group 30.png"
+          src="../../public/image/components/SelectionClothes/Group 30.png"
           width="33px"
         />
       </div>
