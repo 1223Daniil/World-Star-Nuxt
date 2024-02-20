@@ -24,7 +24,7 @@
           <img
             width="50"
             height="40"
-            src="../../publicimage/components/SelectionClothes/image 100 (Traced).png"
+            src="../../public/image/components/SelectionClothes/image 100 (Traced).png"
           />
         </template>
         <template v-slot:subtitle>
@@ -59,19 +59,19 @@ export default {
       optionstwo: ["Спорт", "Одежда"],
       optionstree: ["Мбаппе", "Месси", "Роналду"],
       slideone: [
-        { image: "/image/components/SelectionClothes/Rectangle 7042.png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (2).png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (1).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042.png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (2).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (1).png" },
       ],
       slidetwo: [
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (1).png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042.png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (2).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (1).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042.png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (2).png" },
       ],
       slidetree: [
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (2).png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042 (1).png" },
-        { image: "/image/components/SelectionClothes/Rectangle 7042.png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (2).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042 (1).png" },
+        { image: "../../public/image/components/SelectionClothes/Rectangle 7042.png" },
       ],
     };
   },
