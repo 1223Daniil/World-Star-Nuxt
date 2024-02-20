@@ -42,5 +42,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@import "../../assets/style/mainpage/podium";
+@import "../../assets/style/podium";
 </style>
