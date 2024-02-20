@@ -51,5 +51,5 @@
 </template>
 <script setup></script>
 <style lang="scss" scoped>
-@use "~/assets/style/pages/MainPage/Wardrobe.scss";
+@use "../../assets/style/pages/MainPage/Wardrobe.scss";
 </style>

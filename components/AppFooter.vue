@@ -59,5 +59,5 @@
 </template>
 <script></script>
 <style scoped lang="scss">
-@use "~/assets/style/pages/Footer.scss";
+@use "../assets/style/pages/Footer.scss";
 </style>

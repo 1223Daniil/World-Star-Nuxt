@@ -107,5 +107,5 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-@use "~/assets/style/pages/ReviewsPage/ListReviews.scss";
+@use "../../assets/style/pages/ReviewsPage/ListReviews.scss";
 </style>

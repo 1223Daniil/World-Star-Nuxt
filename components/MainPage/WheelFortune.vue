@@ -189,5 +189,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@use "~/assets/style/pages/MainPage/WheelFortune.scss";
+@use "../../assets/style/pages/MainPage/WheelFortune.scss";
 </style>
