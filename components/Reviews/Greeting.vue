@@ -13,5 +13,5 @@
 </template>
 <script setup></script>
 <style scoped lang="scss">
-@use "../../assets/style/pages/ReviewsPage/Greeting.scss";
+@import "../../assets/style/pages/ReviewsPage/Greeting.scss";
 </style>

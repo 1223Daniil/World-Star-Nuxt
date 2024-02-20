@@ -41,5 +41,5 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-@use "../../assets/style/pages/MainPage/PhotoGallery.scss";
+@import "../../assets/style/pages/mainPage/PhotoGallery.scss";
 </style>

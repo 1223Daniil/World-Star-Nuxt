@@ -41,5 +41,5 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-@use "../assets/style/pages/Header.scss";
+@import "../assets/style/pages/Header.scss";
 </style>
