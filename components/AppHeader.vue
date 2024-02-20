@@ -6,7 +6,7 @@
           <NuxtImg
             width="62"
             height="54"
-            src="/image/components/Header/image 95 (Traced).png"
+            src="/image/components/Header/image95(Traced).png"
           />
           <div>
             <h1 style="color: #005bff" class="text-2xl font-black">

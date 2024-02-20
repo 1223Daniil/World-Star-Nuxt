@@ -31,8 +31,8 @@ header {
         transform: translateY(-50%);
         width: 20px; /* Задаем размер изображения лупы */
         height: 20px;
-        background: url("/image/components/Header/search\ \(4\)\ 1.png")
-          no-repeat center center;
+        background: url("/image/components/Header/search(4)1.png") no-repeat
+          center center;
         background-size: contain;
         cursor: pointer; /* Добавляем указатель при наведении на лупу */
       }
