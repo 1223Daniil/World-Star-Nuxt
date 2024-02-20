@@ -22,15 +22,12 @@
       </div>
       <div class="header__container__item">
         <button
-          style="background-color: #664eff"
+          style="background: linear-gradient(#cdcdcd, #b1b1b1)"
           @click="$emit('OpenRegister')"
         >
           Регистрация
         </button>
-        <button
-          style="background: linear-gradient(#cdcdcd, #b1b1b1)"
-          @click="$emit('OpenLogin')"
-        >
+        <button style="background-color: #664eff" @click="$emit('OpenLogin')">
           Войти
         </button>
       </div>

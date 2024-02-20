@@ -63,7 +63,11 @@
         </FormKit>
         <p class="my-6">
           У вас нет учетной записи?
-          <span class="text-blue-700">Присоединяйтесь бесплатно сегодня</span>
+          <span
+            class="text-blue-700 cursor-pointer"
+            @click="$emit('OpenRegister')"
+            >Присоединяйтесь бесплатно сегодня</span
+          >
         </p>
       </div>
     </div>

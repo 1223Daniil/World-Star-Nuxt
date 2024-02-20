@@ -1,6 +1,6 @@
 <script setup>
 const login = ref(false);
-const register = ref(false);
+const register = ref(true);
 function OpenLogin() {
   login.value = true;
   register.value = false;
@@ -18,7 +18,7 @@ function OpenRegister() {
     </div>
     <AppFooter />
 
-    <LoginPopap v-if="login" />
+    <LoginPopap @OpenRegister="OpenRegister()" v-if="login" />
     <RegisterPopap v-if="register" />
   </div>
 </template>
