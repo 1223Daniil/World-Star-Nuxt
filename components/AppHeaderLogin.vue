@@ -32,7 +32,7 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-@import "../assets/style/pages/Header.scss";
+@import "../assets/style/Header.scss";
 .wallet {
   background-color: #9755fe;
   color: #fff;
