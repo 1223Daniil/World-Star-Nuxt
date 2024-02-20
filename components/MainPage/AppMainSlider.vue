@@ -60,5 +60,5 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-@use "~/assets/style/pages/MainPage/MainSlider.scss";
+@import "~/assets/style/pages/MainPage/MainSlider.scss";
 </style>
