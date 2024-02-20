@@ -1,15 +1,15 @@
 <template>
   <div class="Podium" @click="playYouTubeVideo">
-    <NuxtImg
+    <img
       width="1380"
       height="681"
-      src="/image/components/Podium/Rectangle 7066.png"
+      src="../../image/components/Podium/Rectangle 7066.png"
       v-if="!showVideo"
     />
-    <NuxtImg
+    <img
       v-if="!showVideo"
       class="Podium__play"
-      src="/image/components/Podium/Shape.png"
+      src="../../image/components/Podium/Shape.png"
     />
     <div v-if="showVideo" id="youtubePlayer">
       <iframe

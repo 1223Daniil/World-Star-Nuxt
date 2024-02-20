@@ -3,10 +3,10 @@
     <div class="container header__container">
       <div class="header__container__item">
         <div class="header__container__item__logo">
-          <NuxtImg
+          <img
             width="62"
             height="54"
-            src="/image/components/Header/image 95 (Traced).png"
+            src="../image/components/Header/image 95 (Traced).png"
           />
           <div>
             <h1 style="color: #005bff" class="text-2xl font-black">
@@ -23,7 +23,7 @@
       <div class="header__container__item">
         <span class="wallet">45 WS</span>
         <span>Виолетта</span>
-        <NuxtImg width="50" src="/image/components/Header/Rectangle 5.png" />
+        <img width="50" src="../image/components/Header/Rectangle 5.png" />
       </div>
     </div>
   </header>

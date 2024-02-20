@@ -4,10 +4,10 @@
     <div class="SelectionClothes__container">
       <MainPageSelectionClothesSlider :img="slideone" :options="optionsone">
         <template v-slot:step>
-          <NuxtImg
+          <img
             width="39"
             height="31"
-            src="/image/components/SelectionClothes/image 99 (Traced).png"
+            src="../../image/components/SelectionClothes/image 99 (Traced).png"
           />
           <span
             style="transform: rotate(-10deg); position: relative; bottom: 25px"
@@ -21,10 +21,10 @@
       <MainPageSelectionClothesSlider :img="slidetwo" :options="optionstwo">
         <template v-slot:step>
           <span style="position: relative; bottom: 25px"> Результат</span>
-          <NuxtImg
+          <img
             width="50"
             height="40"
-            src="/image/components/SelectionClothes/image 100 (Traced).png"
+            src="../../image/components/SelectionClothes/image 100 (Traced).png"
           />
         </template>
         <template v-slot:subtitle>
@@ -34,10 +34,10 @@
       <MainPageSelectionClothesSlider :img="slidetree" :options="optionstree">
         <template v-slot:step>
           <span style="position: relative; bottom: 15px"> Шаг №2</span>
-          <NuxtImg
+          <img
             width="39"
             height="45"
-            src="/image/components/SelectionClothes/image 99 (Traced) (1).png"
+            src="../../image/components/SelectionClothes/image 99 (Traced) (1).png"
           />
         </template>
         <template v-slot:subtitle>

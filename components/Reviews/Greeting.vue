@@ -1,8 +1,8 @@
 <template>
   <div class="Greeting">
     <div class="Greeting__content">
-      <NuxtImg
-        src="/image/components/Reviews/Group 51.png"
+      <img
+        src="../../image/components/Reviews/Group 51.png"
         width="821"
         height="608"
       />

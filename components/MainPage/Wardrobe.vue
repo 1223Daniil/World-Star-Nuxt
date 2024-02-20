@@ -6,11 +6,9 @@
     </div>
     <div class="Wardrobe__content">
       <div class="Wardrobe__content__item">
-        <NuxtImg
-          width="330"
-          height="280"
-          style="border-radius: 20px"
-          src="/image/components/SelectionClothes/Rectangle 7042 (1).png"
+        <img
+          style="border-radius: 20px; width: auto; max-height: 260px"
+          src="../../image/components/SelectionClothes/Rectangle 7042 (1).png"
         />
         <p class="Wardrobe__content__item__price">
           <span>1 600 ₽</span

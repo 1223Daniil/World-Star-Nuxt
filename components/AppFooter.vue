@@ -6,10 +6,10 @@
     >
       <div>
         <div class="footer__content__logo">
-          <NuxtImg
+          <img
             width="62"
             height="54"
-            src="/image/components/Footer/image 95 (Traced) (1).png"
+            src="../public/image/components/Footer/image 95 (Traced) (1).png"
           />
           <div>
             <h1 style="color: #fff">World Stars</h1>
@@ -17,11 +17,11 @@
           </div>
         </div>
         <div class="footer__content__link">
-          <NuxtImg src="/image/components/Footer/Logo (1).png" />
-          <NuxtImg src="/image/components/Footer/app icon.png" />
-          <NuxtImg src="/image/components/Footer/social icons (1).png" />
-          <NuxtImg src="/image/components/Footer/Telegram_2019_Logo (1).png" />
-          <NuxtImg src="/image/components/Footer/App Icon (1).png" />
+          <img src="../image/components/Footer/Logo (1).png" />
+          <img src="../image/components/Footer/app icon.png" />
+          <img src="../image/components/Footer/social icons (1).png" />
+          <img src="../image/components/Footer/Telegram_2019_Logo (1).png" />
+          <img src="../image/components/Footer/App Icon (1).png" />
         </div>
         <ul style="margin-top: 30px">
           <li>О нас</li>

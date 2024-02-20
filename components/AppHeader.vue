@@ -3,10 +3,10 @@
     <div class="container header__container">
       <div class="header__container__item">
         <NuxtLink class="header__container__item__logo" to="/">
-          <NuxtImg
+          <img
             width="62"
             height="54"
-            src="/image/components/Header/image95Traced.png"
+            src="../image/components/Header/image95Traced.png"
           />
           <div>
             <h1 style="color: #005bff" class="text-2xl font-black">

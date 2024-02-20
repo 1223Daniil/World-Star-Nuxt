@@ -10,9 +10,9 @@
           {{ selectedItem || "Спортивный" }}
         </p>
 
-        <NuxtImg
+        <img
           :class="{ transform: Transformimg, imgdropdown: imgdropdown }"
-          src="/image/components/SelectionClothes/Group 30.png"
+          src="../../image/components/SelectionClothes/Group 30.png"
           width="33px"
         />
       </div>

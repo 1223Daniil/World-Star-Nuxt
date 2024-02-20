@@ -1,16 +1,16 @@
 <template>
   <div class="gallery__container">
-    <NuxtImg
+    <img
       style="grid-area: 1 / 1 / 3 / 2"
       width="330"
       height="400"
-      src="/image/components/PhotoGallery/Rectangle 7034.png"
+      src="../../public/image/components/PhotoGallery/Rectangle 7034.png"
     />
-    <NuxtImg
+    <img
       width="330"
       height="400"
       style="grid-area: 1 / 2 / 3 / 3"
-      src="/image/components/PhotoGallery/Rectangle 7037.png"
+      src="../../public/image/components/PhotoGallery/Rectangle 7037.png"
     />
     <div
       class="gallery__container__item"
@@ -19,7 +19,9 @@
       <span>Том Хэнкс</span>
       <div class="blur-square" style="background: #1d2e38"></div>
       <div>
-        <NuxtImg src="/image/components/PhotoGallery/Rectangle 7033.png" />
+        <img
+          src="../../public/image/components/PhotoGallery/Rectangle 7033.png"
+        />
       </div>
     </div>
     <div
@@ -32,7 +34,9 @@
         style="background: linear-gradient(to left, #d2d4d3, #8b8f91)"
       ></div>
       <div>
-        <NuxtImg src="/image/components/PhotoGallery/Rectangle 7033 (1).png" />
+        <img
+          src="../../public/image/components/PhotoGallery/Rectangle 7033 (1).png"
+        />
       </div>
     </div>
   </div>
