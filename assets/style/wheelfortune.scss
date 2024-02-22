@@ -15,6 +15,9 @@
       height: auto;
       flex-direction: column;
     }
+    @include very-small-screen {
+      padding: 20px 20px 15px 27px;
+    }
     &__descripton {
       display: flex;
       max-width: 700px;
@@ -24,6 +27,9 @@
         font-size: 48px;
         font-weight: bold;
         color: #fff;
+        @include very-small-screen {
+          font-size: 38px;
+        }
       }
       &__button {
         display: flex;
@@ -307,6 +313,9 @@
         @include position-center-and-size(absolute, 550px);
         @include x-large-screen {
           @include position-center-and-size-x-lager(absolute, 400px);
+        }
+        @include x-large-screen {
+          display: none;
         }
         #circle-dotted {
           fill: transparent;
