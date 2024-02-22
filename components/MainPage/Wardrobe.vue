@@ -28,9 +28,9 @@
       </div>
       <div class="Wardrobe__content__item">
         <span class="Wardrobe__content__item__nocard__title">Нет товара</span>
-        <span class="Wardrobe__content__item__nocard__description"
-          >Добавьте товар в форме подбора товара выше</span
-        >
+        <p class="Wardrobe__content__item__nocard__description">
+          Добавьте товар в форме подбора товара выше
+        </p>
       </div>
       <div class="Wardrobe__content__item">
         <span class="Wardrobe__content__item__nocard__title">Нет товара</span>

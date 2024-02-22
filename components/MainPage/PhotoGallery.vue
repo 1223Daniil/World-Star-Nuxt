@@ -1,17 +1,19 @@
 <template>
   <div class="gallery__container">
-    <img
-      style="grid-area: 1 / 1 / 3 / 2"
-      width="330"
-      height="400"
-      src="../../public/image/components/PhotoGallery/Rectangle 7034.png"
-    />
-    <img
-      width="330"
-      height="400"
-      style="grid-area: 1 / 2 / 3 / 3"
-      src="../../public/image/components/PhotoGallery/Rectangle 7037.png"
-    />
+    <div style="grid-area: 1 / 1 / 3 / 2" class="gallery__container__img">
+      <img
+        width="100%"
+        height="100%"
+        src="../../public/image/components/PhotoGallery/Rectangle 7034.png"
+      />
+    </div>
+    <div style="grid-area: 1 / 2 / 3 / 3" class="gallery__container__img">
+      <img
+        width="100%"
+        height="100%"
+        src="../../public/image/components/PhotoGallery/Rectangle 7037.png"
+      />
+    </div>
     <div
       class="gallery__container__item"
       style="background: linear-gradient(to left, #1d2e38, #1e2f39)"

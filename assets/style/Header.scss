@@ -1,3 +1,4 @@
+@import "./breakpoint.scss";
 header {
   padding: 15px 0px;
   .header__container {
@@ -10,6 +11,16 @@ header {
       &__logo {
         display: flex;
         align-items: center;
+        h1 {
+          @include small-screen {
+            font-size: 1rem;
+          }
+        }
+        span {
+          @include small-screen {
+            font-size: 12px;
+          }
+        }
       }
       input {
         border: none;
@@ -19,6 +30,12 @@ header {
         -webkit-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.2);
         -moz-box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.2);
         box-shadow: 0px 0px 10px 3px rgba(34, 60, 80, 0.2);
+        @include small-screen {
+          font-size: 12px;
+        }
+        @include very-small-screen {
+          display: none;
+        }
       }
       .input-container {
         position: relative;
@@ -35,6 +52,9 @@ header {
           center center;
         background-size: contain;
         cursor: pointer; /* Добавляем указатель при наведении на лупу */
+        @include very-small-screen {
+          display: none;
+        }
       }
       button {
         padding: 14px 20px;
@@ -42,6 +62,9 @@ header {
         font-size: 14px;
         color: white;
         border-radius: 27px;
+        @include small-screen {
+          font-size: 12px;
+        }
       }
     }
   }

@@ -1,10 +1,10 @@
 $margin-bt: 63px;
+@import "./breakpoint.scss";
 .slider-container {
   position: relative;
   overflow: hidden;
   background: linear-gradient(#005bff, #4200ff);
   border-radius: 20px;
-  // height: 300px;
   padding: 90px 0px;
 }
 
@@ -25,10 +25,28 @@ $margin-bt: 63px;
   h2 {
     align-self: flex-start;
     color: #fff;
+    @include small-screen {
+      font-size: 18px;
+    }
+  }
+  p {
+    @include small-screen {
+      font-size: 14px;
+    }
   }
   div {
     margin-right: 400px;
     width: 600px;
+    @include x-large-screen {
+      margin-right: 0px;
+    }
+    @include small-screen {
+      margin-left: 30px;
+    }
+    @include very-small-screen {
+      width: 450px;
+      margin-left: 70px;
+    }
   }
 }
 
@@ -45,8 +63,14 @@ $margin-bt: 63px;
 
 .prevbt {
   left: $margin-bt;
+  @include small-screen {
+    left: 5px;
+  }
 }
 
 .slider-button:last-child {
   right: $margin-bt;
+  @include small-screen {
+    right: 5px;
+  }
 }

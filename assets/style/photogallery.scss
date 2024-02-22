@@ -1,21 +1,33 @@
+@import "./breakpoint.scss";
 .gallery__container {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 330px);
+  grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
   grid-column-gap: 10px;
-  grid-row-gap: 0px;
+  grid-row-gap: 10px;
+  align-items: center;
+  @include very-small-screen {
+    grid-template-columns: repeat(1, auto);
+  }
+  &__img {
+    @include very-small-screen {
+      display: none;
+    }
+  }
   &__item {
     border-radius: 20px;
-    width: 677px;
-    height: 190px;
     display: flex;
     justify-content: space-between;
+    position: relative;
     span {
       font-size: 32px;
       color: white;
       align-self: flex-end;
       margin: 0px 0px 20px 30px;
+      @include small-screen {
+        font-size: 22px;
+      }
     }
     div {
       img {
@@ -29,10 +41,17 @@
 
 .blur-square {
   width: 70px;
-  height: 190px;
+  height: 100%;
   filter: blur(10px); /* Укажите нужное значение размытия */
-  position: relative;
-  left: 60px;
+  position: absolute;
+  left: 45%;
   overflow: hidden;
   border-radius: 10px; /* Задайте радиус скругления углов */
+  @include small-screen {
+    left: 40%;
+    width: 40px;
+  }
+  @include very-small-screen {
+    left: 35%;
+  }
 }

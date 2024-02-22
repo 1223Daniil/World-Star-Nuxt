@@ -1,3 +1,4 @@
+@import "./breakpoint.scss";
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("woff");
@@ -9,6 +10,19 @@
   max-width: 1370px;
   margin: 0 auto;
   padding: 0px 10px;
+
+  @include large-screen {
+    max-width: 1000px;
+  }
+  @include middle-screen {
+    max-width: 850px;
+  }
+  @include small-screen {
+    max-width: 670px;
+  }
+  @include very-small-screen {
+    max-width: 530px;
+  }
 }
 h1 {
   margin: 0px;
@@ -16,7 +30,7 @@ h1 {
 body {
   padding: 0;
   margin: 0px;
-
+  overflow-x: hidden;
 }
 * {
   font-family: "Montserrat", sans-serif;

@@ -1,3 +1,4 @@
+@import "./breakpoint.scss";
 @font-face {
   font-family: "segoe-print";
   src: url("/fonts/segoe-print.otf") format("woff");
@@ -10,6 +11,9 @@
   border-radius: 25px;
   padding: 60px 60px 70px 60px;
   margin-top: 80px;
+  @include small-screen {
+    padding: 20px 20px 30px 20px;
+  }
   &__title {
     position: relative;
     z-index: 1;
@@ -17,21 +21,46 @@
     background-color: white;
     font-size: 32px;
     font-weight: 900;
+    @include small-screen {
+      font-size: 22px;
+      bottom: 40px;
+    }
   }
   &__container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     &__item {
-      max-width: 390px;
+      width: 390px;
+      @include x-large-screen {
+        width: 250px;
+      }
+      @include middle-screen {
+        width: 200px;
+      }
+      @include small-screen {
+        width: 150px;
+      }
+      @include very-small-screen {
+        width: 120px;
+      }
       &__step {
         display: flex;
         justify-content: center;
         img {
           align-self: baseline;
+          @include very-small-screen {
+            display: none;
+          }
         }
         span {
           font-family: segoe-print;
           font-size: 20px;
+          @include middle-screen {
+            font-size: 14px;
+          }
         }
       }
       .dropdown {
@@ -45,15 +74,27 @@
         display: flex;
         justify-content: space-between;
         border-radius: 4px;
-        width: 390px;
+        width: 100%;
         align-items: center;
         p {
           font-size: 20px;
           font-weight: 800;
+          @include middle-screen {
+            font-size: 14px;
+          }
+          @include very-small-screen {
+            font-size: 10px;
+          }
           span {
             font-size: 16px;
             font-weight: 400;
             color: #737373;
+            @include middle-screen {
+              font-size: 14px;
+            }
+            @include very-small-screen {
+              font-size: 10px;
+            }
           }
         }
       }
@@ -80,6 +121,9 @@
       .imgdropdown {
         transform: rotate(0deg);
         transition: all 1s;
+        @include very-small-screen {
+          width: 20px;
+        }
       }
       li {
         padding: 10px;
@@ -130,14 +174,23 @@
         border-radius: 50%;
         border: none;
         cursor: pointer;
+        @include very-small-screen {
+          padding: 0px;
+        }
       }
 
       .prevbt {
         left: 10px;
+        @include very-small-screen {
+          left: 3px;
+        }
       }
 
       .slider-button:last-child {
         right: 10px;
+        @include very-small-screen {
+          right: 3px;
+        }
       }
     }
   }
@@ -146,11 +199,21 @@
     justify-content: center;
     position: relative;
     bottom: 70px;
+    @include middle-screen {
+      bottom: 50px;
+    }
+    @include very-small-screen {
+      bottom: 0px;
+    }
     button {
       padding: 14px 50px;
       border-radius: 27px;
       text-align: center;
       cursor: pointer;
+      @include middle-screen {
+        font-size: 14px;
+        padding: 7px 20px;
+      }
     }
     button:first-child {
       background: linear-gradient(#005bff, #4200ff);
